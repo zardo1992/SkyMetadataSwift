@@ -123,11 +123,6 @@ class VideoViewController: UIViewController {
             let n = NSKeyValueObservingOptions()
             let asset = AVURLAsset(url: contentURL)
             playerItem = AVPlayerItem(asset: asset)
-        
-            NotificationCenter.default.addObserver(self,
-                                                   selector: #selector(accessLogEvent),
-                                                   name: NSNotification.Name.AVPlayerItemNewAccessLogEntry,
-                                                   object: nil)
            
             playerItem!.addObserver(self, forKeyPath: "timedMetadata", options: n, context: nil)
             player = AVPlayer(playerItem: playerItem)
@@ -139,18 +134,6 @@ class VideoViewController: UIViewController {
             player?.play()
         }
     }
-    
-    //Functions
-    //=====================================================
-    @objc
-    func accessLogEvent(notification: NSNotification) {
-        guard let item = notification.object as? AVPlayerItem,
-            let accessLog = item.accessLog() else {
-                return
-        }
-        for event in accessLog.events {
-            print(String(event.uri!))
-        }
-    }
+
 }
 
