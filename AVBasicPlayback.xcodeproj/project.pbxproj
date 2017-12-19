@@ -15,6 +15,7 @@
 		14C7237F1FE2D6FD00B6DD3B /* AVBasicPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C7237E1FE2D6FD00B6DD3B /* AVBasicPlaybackTests.swift */; };
 		14C7238A1FE2D6FD00B6DD3B /* AVBasicPlaybackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C723891FE2D6FD00B6DD3B /* AVBasicPlaybackUITests.swift */; };
 		9546A9CF1FE7B5410052DABF /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546A9CE1FE7B5410052DABF /* VideoViewController.swift */; };
+		95C5D4911FE91DDE00D4FB45 /* video.urls in Resources */ = {isa = PBXBuildFile; fileRef = 95C5D4901FE91DDE00D4FB45 /* video.urls */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		14C723891FE2D6FD00B6DD3B /* AVBasicPlaybackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVBasicPlaybackUITests.swift; sourceTree = "<group>"; };
 		14C7238B1FE2D6FD00B6DD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9546A9CE1FE7B5410052DABF /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		95C5D4901FE91DDE00D4FB45 /* video.urls */ = {isa = PBXFileReference; lastKnownFileType = text; path = video.urls; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				14C723721FE2D6FD00B6DD3B /* LaunchScreen.storyboard */,
 				14C723701FE2D6FD00B6DD3B /* Assets.xcassets */,
 				14C723751FE2D6FD00B6DD3B /* Info.plist */,
+				95C5D4901FE91DDE00D4FB45 /* video.urls */,
 			);
 			path = AVBasicPlayback;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14C723741FE2D6FD00B6DD3B /* LaunchScreen.storyboard in Resources */,
+				95C5D4911FE91DDE00D4FB45 /* video.urls in Resources */,
 				14C723711FE2D6FD00B6DD3B /* Assets.xcassets in Resources */,
 				14C7236F1FE2D6FD00B6DD3B /* Main.storyboard in Resources */,
 			);
@@ -447,7 +451,7 @@
 				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sky.playback;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.SkyMetadataSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,7 +468,7 @@
 				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sky.playback;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.SkyMetadataSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
