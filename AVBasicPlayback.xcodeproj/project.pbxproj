@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142871391FE9087900D32271 /* HockeySDK.embeddedframework in Resources */ = {isa = PBXBuildFile; fileRef = 142871381FE9087800D32271 /* HockeySDK.embeddedframework */; };
+		142871401FE9117A00D32271 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1428713F1FE9117A00D32271 /* HockeySDK.framework */; };
+		14A9124B1FE95D44005031A3 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14A9124A1FE95D43005031A3 /* HockeySDKResources.bundle */; };
 		14C7236A1FE2D6FC00B6DD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C723691FE2D6FC00B6DD3B /* AppDelegate.swift */; };
 		14C7236C1FE2D6FC00B6DD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C7236B1FE2D6FC00B6DD3B /* ViewController.swift */; };
 		14C7236F1FE2D6FD00B6DD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C7236D1FE2D6FD00B6DD3B /* Main.storyboard */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		142871381FE9087800D32271 /* HockeySDK.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HockeySDK.embeddedframework; path = "HockeySDK-iOS/HockeySDK.embeddedframework"; sourceTree = "<group>"; };
+		1428713A1FE910DD00D32271 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HockeySDKResources.bundle; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle"; sourceTree = "<group>"; };
+		1428713D1FE9112000D32271 /* HockeySDK-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "HockeySDK-iOS"; sourceTree = "<group>"; };
+		1428713F1FE9117A00D32271 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework"; sourceTree = "<group>"; };
+		14A9124A1FE95D43005031A3 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HockeySDKResources.bundle; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle"; sourceTree = "<group>"; };
 		14C723661FE2D6FC00B6DD3B /* AVBasicPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVBasicPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C723691FE2D6FC00B6DD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C7236B1FE2D6FC00B6DD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142871401FE9117A00D32271 /* HockeySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +88,7 @@
 		14C7235D1FE2D6FC00B6DD3B = {
 			isa = PBXGroup;
 			children = (
+				14A9124A1FE95D43005031A3 /* HockeySDKResources.bundle */,
 				14C723681FE2D6FC00B6DD3B /* AVBasicPlayback */,
 				14C7237D1FE2D6FD00B6DD3B /* AVBasicPlaybackTests */,
 				14C723881FE2D6FD00B6DD3B /* AVBasicPlaybackUITests */,
@@ -132,6 +142,10 @@
 		9546A9DA1FE7F88A0052DABF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1428713F1FE9117A00D32271 /* HockeySDK.framework */,
+				1428713D1FE9112000D32271 /* HockeySDK-iOS */,
+				1428713A1FE910DD00D32271 /* HockeySDKResources.bundle */,
+				142871381FE9087800D32271 /* HockeySDK.embeddedframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,6 +160,7 @@
 				14C723621FE2D6FC00B6DD3B /* Sources */,
 				14C723631FE2D6FC00B6DD3B /* Frameworks */,
 				14C723641FE2D6FC00B6DD3B /* Resources */,
+				142871371FE907F000D32271 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -243,8 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A9124B1FE95D44005031A3 /* HockeySDKResources.bundle in Resources */,
 				14C723741FE2D6FD00B6DD3B /* LaunchScreen.storyboard in Resources */,
 				14C723711FE2D6FD00B6DD3B /* Assets.xcassets in Resources */,
+				142871391FE9087900D32271 /* HockeySDK.embeddedframework in Resources */,
 				14C7236F1FE2D6FD00B6DD3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +281,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142871371FE907F000D32271 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		14C723621FE2D6FC00B6DD3B /* Sources */ = {
@@ -442,12 +475,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				"CODE_SIGN_STYLE[sdk=iphoneos*]" = Automatic;
-				DEVELOPMENT_TEAM = R66CZ965TF;
+				DEVELOPMENT_TEAM = DE4SDMJ4T2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sky.playback;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.SkyMetadataSwift1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,12 +497,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R66CZ965TF;
+				DEVELOPMENT_TEAM = DE4SDMJ4T2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sky.playback;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.SkyMetadataSwift1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
