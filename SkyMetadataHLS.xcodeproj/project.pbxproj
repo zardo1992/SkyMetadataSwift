@@ -18,6 +18,7 @@
 		14C7237F1FE2D6FD00B6DD3B /* AVBasicPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C7237E1FE2D6FD00B6DD3B /* AVBasicPlaybackTests.swift */; };
 		14C7238A1FE2D6FD00B6DD3B /* AVBasicPlaybackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C723891FE2D6FD00B6DD3B /* AVBasicPlaybackUITests.swift */; };
 		9546A9CF1FE7B5410052DABF /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546A9CE1FE7B5410052DABF /* VideoViewController.swift */; };
+		95C5D4911FE91DDE00D4FB45 /* video.urls in Resources */ = {isa = PBXBuildFile; fileRef = 95C5D4901FE91DDE00D4FB45 /* video.urls */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,20 +44,21 @@
 		1428713D1FE9112000D32271 /* HockeySDK-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "HockeySDK-iOS"; sourceTree = "<group>"; };
 		1428713F1FE9117A00D32271 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework"; sourceTree = "<group>"; };
 		14A9124A1FE95D43005031A3 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HockeySDKResources.bundle; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDKResources.bundle"; sourceTree = "<group>"; };
-		14C723661FE2D6FC00B6DD3B /* AVBasicPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVBasicPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C723661FE2D6FC00B6DD3B /* SkyMetadataHLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyMetadataHLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C723691FE2D6FC00B6DD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C7236B1FE2D6FC00B6DD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14C7236E1FE2D6FD00B6DD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14C723701FE2D6FD00B6DD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14C723731FE2D6FD00B6DD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14C723751FE2D6FD00B6DD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14C7237A1FE2D6FD00B6DD3B /* AVBasicPlaybackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVBasicPlaybackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C7237A1FE2D6FD00B6DD3B /* SkyMetadataHLSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyMetadataHLSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C7237E1FE2D6FD00B6DD3B /* AVBasicPlaybackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVBasicPlaybackTests.swift; sourceTree = "<group>"; };
 		14C723801FE2D6FD00B6DD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14C723851FE2D6FD00B6DD3B /* AVBasicPlaybackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVBasicPlaybackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C723851FE2D6FD00B6DD3B /* SkyMetadataHLSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyMetadataHLSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C723891FE2D6FD00B6DD3B /* AVBasicPlaybackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVBasicPlaybackUITests.swift; sourceTree = "<group>"; };
 		14C7238B1FE2D6FD00B6DD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9546A9CE1FE7B5410052DABF /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		95C5D4901FE91DDE00D4FB45 /* video.urls */ = {isa = PBXFileReference; lastKnownFileType = text; path = video.urls; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +102,9 @@
 		14C723671FE2D6FC00B6DD3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14C723661FE2D6FC00B6DD3B /* AVBasicPlayback.app */,
-				14C7237A1FE2D6FD00B6DD3B /* AVBasicPlaybackTests.xctest */,
-				14C723851FE2D6FD00B6DD3B /* AVBasicPlaybackUITests.xctest */,
+				14C723661FE2D6FC00B6DD3B /* SkyMetadataHLS.app */,
+				14C7237A1FE2D6FD00B6DD3B /* SkyMetadataHLSTests.xctest */,
+				14C723851FE2D6FD00B6DD3B /* SkyMetadataHLSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +119,7 @@
 				14C723721FE2D6FD00B6DD3B /* LaunchScreen.storyboard */,
 				14C723701FE2D6FD00B6DD3B /* Assets.xcassets */,
 				14C723751FE2D6FD00B6DD3B /* Info.plist */,
+				95C5D4901FE91DDE00D4FB45 /* video.urls */,
 			);
 			path = AVBasicPlayback;
 			sourceTree = "<group>";
@@ -153,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14C723651FE2D6FC00B6DD3B /* AVBasicPlayback */ = {
+		14C723651FE2D6FC00B6DD3B /* SkyMetadataHLS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14C7238E1FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "AVBasicPlayback" */;
+			buildConfigurationList = 14C7238E1FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "SkyMetadataHLS" */;
 			buildPhases = (
 				14C723621FE2D6FC00B6DD3B /* Sources */,
 				14C723631FE2D6FC00B6DD3B /* Frameworks */,
@@ -166,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = AVBasicPlayback;
+			name = SkyMetadataHLS;
 			productName = AVBasicPlayback;
-			productReference = 14C723661FE2D6FC00B6DD3B /* AVBasicPlayback.app */;
+			productReference = 14C723661FE2D6FC00B6DD3B /* SkyMetadataHLS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14C723791FE2D6FD00B6DD3B /* AVBasicPlaybackTests */ = {
+		14C723791FE2D6FD00B6DD3B /* SkyMetadataHLSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14C723911FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "AVBasicPlaybackTests" */;
+			buildConfigurationList = 14C723911FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "SkyMetadataHLSTests" */;
 			buildPhases = (
 				14C723761FE2D6FD00B6DD3B /* Sources */,
 				14C723771FE2D6FD00B6DD3B /* Frameworks */,
@@ -184,14 +187,14 @@
 			dependencies = (
 				14C7237C1FE2D6FD00B6DD3B /* PBXTargetDependency */,
 			);
-			name = AVBasicPlaybackTests;
+			name = SkyMetadataHLSTests;
 			productName = AVBasicPlaybackTests;
-			productReference = 14C7237A1FE2D6FD00B6DD3B /* AVBasicPlaybackTests.xctest */;
+			productReference = 14C7237A1FE2D6FD00B6DD3B /* SkyMetadataHLSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		14C723841FE2D6FD00B6DD3B /* AVBasicPlaybackUITests */ = {
+		14C723841FE2D6FD00B6DD3B /* SkyMetadataHLSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14C723941FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "AVBasicPlaybackUITests" */;
+			buildConfigurationList = 14C723941FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "SkyMetadataHLSUITests" */;
 			buildPhases = (
 				14C723811FE2D6FD00B6DD3B /* Sources */,
 				14C723821FE2D6FD00B6DD3B /* Frameworks */,
@@ -202,9 +205,9 @@
 			dependencies = (
 				14C723871FE2D6FD00B6DD3B /* PBXTargetDependency */,
 			);
-			name = AVBasicPlaybackUITests;
+			name = SkyMetadataHLSUITests;
 			productName = AVBasicPlaybackUITests;
-			productReference = 14C723851FE2D6FD00B6DD3B /* AVBasicPlaybackUITests.xctest */;
+			productReference = 14C723851FE2D6FD00B6DD3B /* SkyMetadataHLSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14C723611FE2D6FC00B6DD3B /* Build configuration list for PBXProject "AVBasicPlayback" */;
+			buildConfigurationList = 14C723611FE2D6FC00B6DD3B /* Build configuration list for PBXProject "SkyMetadataHLS" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -246,9 +249,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14C723651FE2D6FC00B6DD3B /* AVBasicPlayback */,
-				14C723791FE2D6FD00B6DD3B /* AVBasicPlaybackTests */,
-				14C723841FE2D6FD00B6DD3B /* AVBasicPlaybackUITests */,
+				14C723651FE2D6FC00B6DD3B /* SkyMetadataHLS */,
+				14C723791FE2D6FD00B6DD3B /* SkyMetadataHLSTests */,
+				14C723841FE2D6FD00B6DD3B /* SkyMetadataHLSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +263,7 @@
 			files = (
 				14A9124B1FE95D44005031A3 /* HockeySDKResources.bundle in Resources */,
 				14C723741FE2D6FD00B6DD3B /* LaunchScreen.storyboard in Resources */,
+				95C5D4911FE91DDE00D4FB45 /* video.urls in Resources */,
 				14C723711FE2D6FD00B6DD3B /* Assets.xcassets in Resources */,
 				142871391FE9087900D32271 /* HockeySDK.embeddedframework in Resources */,
 				14C7236F1FE2D6FD00B6DD3B /* Main.storyboard in Resources */,
@@ -330,12 +334,12 @@
 /* Begin PBXTargetDependency section */
 		14C7237C1FE2D6FD00B6DD3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14C723651FE2D6FC00B6DD3B /* AVBasicPlayback */;
+			target = 14C723651FE2D6FC00B6DD3B /* SkyMetadataHLS */;
 			targetProxy = 14C7237B1FE2D6FD00B6DD3B /* PBXContainerItemProxy */;
 		};
 		14C723871FE2D6FD00B6DD3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14C723651FE2D6FC00B6DD3B /* AVBasicPlayback */;
+			target = 14C723651FE2D6FC00B6DD3B /* SkyMetadataHLS */;
 			targetProxy = 14C723861FE2D6FD00B6DD3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,7 +486,7 @@
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sky.SkyMetadataSwift1;
@@ -504,7 +508,7 @@
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sky.SkyMetadataSwift1;
@@ -527,7 +531,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVBasicPlayback.app/AVBasicPlayback";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyMetadataHLS.app/SkyMetadataHLS";
 			};
 			name = Debug;
 		};
@@ -544,7 +548,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVBasicPlayback.app/AVBasicPlayback";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyMetadataHLS.app/SkyMetadataHLS";
 			};
 			name = Release;
 		};
@@ -583,7 +587,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14C723611FE2D6FC00B6DD3B /* Build configuration list for PBXProject "AVBasicPlayback" */ = {
+		14C723611FE2D6FC00B6DD3B /* Build configuration list for PBXProject "SkyMetadataHLS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14C7238C1FE2D6FD00B6DD3B /* Debug */,
@@ -592,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14C7238E1FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "AVBasicPlayback" */ = {
+		14C7238E1FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "SkyMetadataHLS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14C7238F1FE2D6FD00B6DD3B /* Debug */,
@@ -601,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14C723911FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "AVBasicPlaybackTests" */ = {
+		14C723911FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "SkyMetadataHLSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14C723921FE2D6FD00B6DD3B /* Debug */,
@@ -610,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14C723941FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "AVBasicPlaybackUITests" */ = {
+		14C723941FE2D6FD00B6DD3B /* Build configuration list for PBXNativeTarget "SkyMetadataHLSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14C723951FE2D6FD00B6DD3B /* Debug */,

@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AVBasicPlayback" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SkyMetadataHLS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,6 +33,14 @@
                                     <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kuc-a4-WAT"/>
                                 </connections>
                             </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhH-Sk-tkM">
+                                <rect key="frame" x="16" y="181" width="334" height="92"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="blU-uh-mIW">
+                                <rect key="frame" x="137" y="450" width="213" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -40,6 +48,7 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="picker" destination="nhH-Sk-tkM" id="Yii-ll-HYE"/>
                         <outlet property="textField" destination="Wyv-29-NNS" id="02M-Dk-WEp"/>
                         <segue destination="zVu-NU-U8N" kind="show" identifier="passToView" id="3Yw-Wz-hav"/>
                     </connections>
@@ -51,60 +60,77 @@
         <!--Video View Controller-->
         <scene sceneID="4de-Z1-Hlh">
             <objects>
-                <viewController id="zVu-NU-U8N" customClass="VideoViewController" customModule="AVBasicPlayback" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zVu-NU-U8N" customClass="VideoViewController" customModule="SkyMetadataHLS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AVv-3l-S0Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tcf-oz-5eR">
-                                <rect key="frame" x="16" y="460" width="343" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sl2-9v-UYM">
-                                        <rect key="frame" x="0.0" y="8" width="343" height="155"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckf-on-h55">
-                                <rect key="frame" x="16" y="384" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Copy to clipboard"/>
-                                <connections>
-                                    <action selector="copyToClipboard:" destination="zVu-NU-U8N" eventType="touchUpInside" id="VFO-vo-ELC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjy-2S-D0C">
-                                <rect key="frame" x="16" y="422" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play a new HLS Video"/>
-                                <connections>
-                                    <action selector="goBack:" destination="zVu-NU-U8N" eventType="touchUpInside" id="HvK-su-AUd"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fom-R3-HuH">
-                                <rect key="frame" x="168" y="346" width="39" height="30"/>
+                                <rect key="frame" x="242" y="551" width="110" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Erase"/>
                                 <connections>
                                     <action selector="eraseTextView:" destination="zVu-NU-U8N" eventType="touchUpInside" id="Yzf-Uk-mV8"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="NO META DATA RECEIVED" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W0G-vh-pZp">
-                                <rect key="frame" x="16" y="75" width="343" height="257"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tcf-oz-5eR">
+                                <rect key="frame" x="16" y="460" width="181" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sl2-9v-UYM">
+                                        <rect key="frame" x="0.0" y="8" width="183" height="155"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjy-2S-D0C">
+                                <rect key="frame" x="235" y="446" width="124" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play a new HLS Video"/>
+                                <connections>
+                                    <action selector="goBack:" destination="zVu-NU-U8N" eventType="touchUpInside" id="HvK-su-AUd"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="NO META DATA RECEIVED" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DgR-fA-GRW">
+                                <rect key="frame" x="16" y="28" width="349" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="NO META DATA RECEIVED" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W0G-vh-pZp">
+                                <rect key="frame" x="22" y="131" width="343" height="283"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckf-on-h55">
+                                <rect key="frame" x="222" y="503" width="150" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Copy to clipboard"/>
+                                <connections>
+                                    <action selector="copyToClipboard:" destination="zVu-NU-U8N" eventType="touchUpInside" id="VFO-vo-ELC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5w-4U-aJ1">
+                                <rect key="frame" x="25" y="422" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Scroll to bottom"/>
+                                <connections>
+                                    <action selector="goToBottom:" destination="zVu-NU-U8N" eventType="touchUpInside" id="XZu-Q7-bAW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="aJc-Hg-6Jo"/>
                     </view>
                     <connections>
+                        <outlet property="playPauseViewButton" destination="yjy-2S-D0C" id="vVo-u1-lrR"/>
                         <outlet property="textView" destination="W0G-vh-pZp" id="kpl-vK-Idw"/>
+                        <outlet property="textViewP" destination="DgR-fA-GRW" id="7T1-7X-2Il"/>
                         <outlet property="videoView" destination="sl2-9v-UYM" id="K6a-n3-Hfr"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="returnToView" id="95W-pD-hkV"/>
                     </connections>
@@ -114,4 +140,7 @@
             <point key="canvasLocation" x="621.60000000000002" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="250" height="150"/>
+    </resources>
 </document>

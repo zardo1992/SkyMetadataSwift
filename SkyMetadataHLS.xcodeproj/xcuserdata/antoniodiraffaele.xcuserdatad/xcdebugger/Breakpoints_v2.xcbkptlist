@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVBasicPlayback/VideoViewController.swift"
+            timestampString = "537285318.9632469"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "VideoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SkyMetadataHLS.VideoViewController.textViewP.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextView&gt;"
+                  moduleName = "SkyMetadataHLS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniodiraffaele/Desktop/Xcode%20Git%20Repo%20/SkyMetadataSwift/AVBasicPlayback/VideoViewController.swift"
+                  timestampString = "535628333.957756"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SkyMetadataHLS.VideoViewController.textViewP.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextView&gt;"
+                  moduleName = "SkyMetadataHLS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniodiraffaele/Desktop/Xcode%20Git%20Repo%20/SkyMetadataSwift/AVBasicPlayback/VideoViewController.swift"
+                  timestampString = "535628333.960639"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SkyMetadataHLS.VideoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SkyMetadataHLS.VideoViewController"
+                  moduleName = "SkyMetadataHLS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniodiraffaele/Desktop/Xcode%20Git%20Repo%20/SkyMetadataSwift/AVBasicPlayback/VideoViewController.swift"
+                  timestampString = "535628333.962649"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SkyMetadataHLS.VideoViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SkyMetadataHLS.VideoViewController&gt;"
+                  moduleName = "SkyMetadataHLS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniodiraffaele/Desktop/Xcode%20Git%20Repo%20/SkyMetadataSwift/AVBasicPlayback/VideoViewController.swift"
+                  timestampString = "535628333.964568"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AVBasicPlayback/VideoViewController.swift"
+            timestampString = "537285318.971339"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "VideoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SkyMetadataHLS.VideoViewController.textViewP.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextView&gt;"
+                  moduleName = "SkyMetadataHLS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniodiraffaele/Desktop/Xcode%20Git%20Repo%20/SkyMetadataSwift/AVBasicPlayback/VideoViewController.swift"
+                  timestampString = "535628450.54647"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SkyMetadataHLS.VideoViewController.textViewP.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextView&gt;"
+                  moduleName = "SkyMetadataHLS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniodiraffaele/Desktop/Xcode%20Git%20Repo%20/SkyMetadataSwift/AVBasicPlayback/VideoViewController.swift"
+                  timestampString = "535628450.548798"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SkyMetadataHLS.VideoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SkyMetadataHLS.VideoViewController"
+                  moduleName = "SkyMetadataHLS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniodiraffaele/Desktop/Xcode%20Git%20Repo%20/SkyMetadataSwift/AVBasicPlayback/VideoViewController.swift"
+                  timestampString = "535628450.55085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SkyMetadataHLS.VideoViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SkyMetadataHLS.VideoViewController&gt;"
+                  moduleName = "SkyMetadataHLS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antoniodiraffaele/Desktop/Xcode%20Git%20Repo%20/SkyMetadataSwift/AVBasicPlayback/VideoViewController.swift"
+                  timestampString = "535628450.552922"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
